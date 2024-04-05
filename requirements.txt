@@ -1,0 +1,8 @@
+pandas
+numpy
+scikit-learn
+pinecone-client
+openai
+fastapi
+uvicorn
+python-multipart
