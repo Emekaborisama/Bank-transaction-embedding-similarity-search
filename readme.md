@@ -15,7 +15,7 @@ docker build -t my_fastapi_app .
 
 
 ```bash
-docker run -p 8000:8000 -e PINECONE_INDEX_NAME=deel-demo -e EMBED_MODEL=text-embedding-3-small -e OPEN_API_KEY=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 -e PINECONE_API_KEY=14921cd0-631f-47bb-b841-7e08f158752d --rm my_fastapi_app
+docker run -p 8000:8000 -e PINECONE_INDEX_NAME=deel-demo -e EMBED_MODEL=text-embedding-3-small -e OPEN_API_KEY=<on request> -e PINECONE_API_KEY=14921cd0-631f-47bb-b841-7e08f158752d --rm my_fastapi_app
 
 
 ```
