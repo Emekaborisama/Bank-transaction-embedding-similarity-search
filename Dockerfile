@@ -16,6 +16,6 @@ RUN pip install -r requirements.txt
 COPY . .
 
 # ENTRYPOINT [ "python", "/app/ingest.py" ]
-EXPOSE 8080
+
 # Command to run the application (replace 'main:app' with your actual entrypoint)
 CMD ["uvicorn", "app.api:app", "--host", "0.0.0.0", "--port", "8080"]
